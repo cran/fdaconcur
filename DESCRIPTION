@@ -4,9 +4,9 @@ Title: Concurrent Regression and History Index Models for Functional
         Data
 URL: https://github.com/functionaldata/tFDAconcur
 BugReports: https://github.com/functionaldata/tFDAconcur/issues
-Version: 0.1.1
+Version: 0.1.2
 Encoding: UTF-8
-Date: 2023-08-15
+Date: 2023-11-06
 Authors@R: 
     c(person(given = "Su I",
              family = "Iao",
@@ -53,7 +53,7 @@ Imports: fdapace, stats
 Suggests: MASS, Rcpp (>= 0.11.5), Matrix, pracma, numDeriv, testthat
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-08-26 02:52:51 UTC; suiiao
+Packaged: 2023-11-07 19:08:21 UTC; suiiao
 Author: Su I Iao [aut, cre],
   Satarupa Bhattacharjee [aut],
   Yaqing Chen [aut],
@@ -65,4 +65,4 @@ Author: Su I Iao [aut, cre],
   Hang Zhou [aut],
   Hans-Georg Müller [cph, ths, aut]
 Repository: CRAN
-Date/Publication: 2023-09-06 10:30:06 UTC
+Date/Publication: 2023-11-08 23:30:07 UTC
