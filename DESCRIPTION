@@ -4,9 +4,9 @@ Title: Concurrent Regression and History Index Models for Functional
         Data
 URL: https://github.com/functionaldata/tFDAconcur
 BugReports: https://github.com/functionaldata/tFDAconcur/issues
-Version: 0.1.2
+Version: 0.1.3
 Encoding: UTF-8
-Date: 2023-11-06
+Date: 2024-07-16
 Authors@R: 
     c(person(given = "Su I",
              family = "Iao",
@@ -46,14 +46,15 @@ Description: Provides an implementation of concurrent or varying coefficient reg
     past predictor values are modeled by a smooth history index function, 
     while the effects on the response are described by smooth varying coefficient functions, 
     which are very useful in analyzing real data such as COVID data.
-    References: Yao, F., Müller, H.G., Wang, J.L. (2005) <doi: 10.1214/009053605000000660>.
-                Sentürk, D., Müller, H.G. (2010) <doi: 10.1198/jasa.2010.tm09228>.
+    References: Yao, F., Müller, H.G., Wang, J.L. (2005) <doi:10.1214/009053605000000660>.
+                Sentürk, D., Müller, H.G. (2010) <doi:10.1198/jasa.2010.tm09228>.
 License: BSD_3_clause + file LICENSE
-Imports: fdapace, stats
-Suggests: MASS, Rcpp (>= 0.11.5), Matrix, pracma, numDeriv, testthat
-RoxygenNote: 7.2.3
-NeedsCompilation: no
-Packaged: 2023-11-07 19:08:21 UTC; suiiao
+Imports: Rcpp (>= 0.11.5), fdapace (>= 0.6.0), stats
+LinkingTo: Rcpp, RcppEigen
+Suggests: MASS, Matrix, pracma, numDeriv, testthat
+RoxygenNote: 7.3.1
+NeedsCompilation: yes
+Packaged: 2024-07-19 21:32:01 UTC; suiiao
 Author: Su I Iao [aut, cre],
   Satarupa Bhattacharjee [aut],
   Yaqing Chen [aut],
@@ -65,4 +66,4 @@ Author: Su I Iao [aut, cre],
   Hang Zhou [aut],
   Hans-Georg Müller [cph, ths, aut]
 Repository: CRAN
-Date/Publication: 2023-11-08 23:30:07 UTC
+Date/Publication: 2024-07-20 06:30:02 UTC
